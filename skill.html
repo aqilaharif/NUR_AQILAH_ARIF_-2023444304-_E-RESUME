@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Skills · Nur Aqilah</title>
+  <style>
+    body{ font-family:"Segoe UI",sans-serif; background:#eaf6ff; color:#01384d; margin:0;}
+    .nav{ background:#bbdefb; padding:12px; text-align:center; }
+    .nav a{ margin:0 10px; color:#003d66; font-weight:600; text-decoration:none; }
+    main{ max-width:900px; margin:18px auto; padding:16px; }
+    .card{ background:#fff; padding:14px; border-radius:8px; box-shadow:0 6px 12px rgba(0,0,0,0.04); }
+    .skills-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; margin-top:12px; }
+    .skill{ background:#f7fcff; padding:12px; border-radius:8px; border:1px solid #dff2ff; }
+    .skill strong{ display:block; margin-bottom:6px; color:#023e57; }
+    img{ width:200px; border-radius:8px; cursor:pointer; margin-top:12px; }
+
+    footer{ background:#fff; padding:14px; margin-top:22px; text-align:center; font-size:13px; color:#194b66; border-top:1px solid #e6f0fa; }
+    .small{ font-size:12px; color:#32678a }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="index.html">Home</a>
+    <a href="about me.html">About Me</a>
+    <a href="education.html">Education</a>
+    <a href="achievement.html">Achievement</a>
+    <a href="skill.html">Skills</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <main>
+    <div class="card">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill"><strong>Cataloguing & Classification</strong> DDC, metadata creation, record keeping.</div>
+        <div class="skill"><strong>Data & Analysis</strong> Power BI, SPSS basics, data handling.</div>
+        <div class="skill"><strong>Web & IT</strong> Basic HTML, digital publishing basics.</div>
+        <div class="skill"><strong>Office Tools</strong> MS Word, Excel, PowerPoint, Mendeley.</div>
+        <div class="skill"><strong>Soft Skills</strong> Communication, Teamwork, Time Management, Critical Thinking.</div>
+      </div>
+
+      <h3 style="margin-top:12px">Skill Levels (visual table)</h3>
+      <table style="width:100%; border-collapse:collapse;" border="1" cellpadding="8">
+        <tr style="background:#f1fbff"><th>Skill</th><th>Level</th></tr>
+        <tr><td>Cataloguing</td><td>Advanced</td></tr>
+        <tr><td>HTML (Basic)</td><td>Beginner</td></tr>
+        <tr><td>Power BI</td><td>Intermediate</td></tr>
+        <tr><td>SPSS</td><td>Beginner</td></tr>
+      </table>
+
+      <img src="skills.jpg" alt="Skills image" onclick="openModal(this)">
+<center><ul><a href="#top">Back to top</a></li></ul></center>
+  </main>
+
+  <div id="modal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.6); align-items:center; justify-content:center;">
+    <img id="modalImg" style="max-width:90%; max-height:85%; border-radius:8px;">
+  </div>
+
+<footer>
+© 2025 NUR AQILAH BINTI MUHAMAD ARIF. Recommended browsers: Chrome / Firefox / Edge. Recommended resolution: 1280x720 or higher. Last update: 2025-12-09.
+</footer>
+
+</body>
+</html>

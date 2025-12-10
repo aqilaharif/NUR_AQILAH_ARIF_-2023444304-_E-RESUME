@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>About Me · Nur Aqilah</title>
+
+  <style>
+    :root{
+      --blue-1:#e3f2fd;
+      --blue-2:#bbdefb;
+      --accent:#003d66;
+    }
+
+    body{
+      background:var(--blue-1);
+      font-family:"Segoe UI",sans-serif;
+      color:#033a57;
+      margin:0;
+    }
+
+   
+    .nav{
+      background:var(--blue-2);
+      padding:12px;
+      text-align:center;
+      box-shadow:0 2px 6px rgba(0,0,0,0.1);
+    }
+    .nav a{
+      margin:0 10px;
+      text-decoration:none;
+      color:var(--accent);
+      font-weight:600;
+    }
+
+    
+    main{
+      max-width:960px;
+      margin:18px auto;
+      padding:16px;
+    }
+
+    .grid{
+      display:flex;
+      gap:18px;
+      align-items:flex-start;
+      background:#fff;
+      padding:18px;
+      border-radius:12px;
+      box-shadow:0 6px 18px rgba(0,0,0,0.05);
+    }
+
+    .profile{
+      width:260px;
+    }
+    .profile img{
+      width:100%;
+      border-radius:10px;
+      cursor:pointer;
+      box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .content h2{
+      margin-top:0;
+      color:var(--accent);
+    }
+
+   
+    .info-box{
+      background:#f4faff;
+      border:2px solid #bbdefb;
+      padding:16px;
+      border-radius:10px;
+      margin-bottom:18px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .info-row{
+      display:flex;
+      margin-bottom:8px;
+    }
+
+    .info-label{
+      width:160px;
+      font-weight:600;
+      color:#003d66;
+    }
+
+    .info-value{
+      flex:1;
+      color:#033a57;
+    }
+
+    .contact small{
+      display:block;
+      margin-top:6px;
+      color:#145b78;
+    }
+
+    footer{ background:#fff; padding:14px; margin-top:22px; text-align:center; font-size:13px; color:#194b66; border-top:1px solid #e6f0fa; }
+    .small{ font-size:12px; color:#32678a }
+  </style>
+</head>
+
+<body>
+
+  <div class="nav">
+    <a href="index.html">Home</a>
+    <a href="about me.html">About Me</a>
+    <a href="education.html">Education</a>
+    <a href="achievement.html">Achievement</a>
+    <a href="skill.html">Skills</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <main>
+
+    <div class="grid">
+
+
+      <aside class="profile">
+        <img src="aqilah arif.jpg" alt="Nur Aqilah portrait" onclick="openModal(this)">
+      </aside>
+
+
+      <section class="content">
+
+        <h2>About Me</h2>
+        <p><strong>NUR AQILAH BINTI MUHAMAD ARIF</strong><br>
+        Alor Setar, Kedah • aqilaharif25@gmail.com • 011-20852623</p>
+
+
+        <h3>Personal Information</h3>
+        <div class="info-box">
+
+          <div class="info-row">
+            <div class="info-label">Full Name:</div>
+            <div class="info-value">Nur Aqilah binti Muhamad Arif</div>
+          </div>
+
+          <div class="info-row">
+            <div class="info-label">Date of Birth:</div>
+            <div class="info-value">28 January</div>
+          </div>
+
+          <div class="info-row">
+            <div class="info-label">Gender:</div>
+            <div class="info-value">Female</div>
+          </div>
+
+          <div class="info-row">
+            <div class="info-label">Marital Status:</div>
+            <div class="info-value">Single</div>
+          </div>
+
+          <div class="info-row">
+            <div class="info-label">Nationality:</div>
+            <div class="info-value">Malaysian</div>
+          </div>
+
+          <div class="info-row">
+            <div class="info-label">Contact Number:</div>
+            <div class="info-value">011-20852623</div>
+          </div>
+
+          <div class="info-row">
+            <div class="info-label">Place of Birth:</div>
+            <div class="info-value">Alor Setar</div>
+          </div>
+
+        </div>
+
+
+        <h3>Educational Background</h3>
+        <div class="info-box">
+          <div class="info-row">
+            <div class="info-label">Academic Qualifications:</div>
+            <div class="info-value">Degree in UiTM Cawangan Kedah</div>
+          </div>
+
+          <div class="info-row">
+            <div class="info-label">Specializations:</div>
+            <div class="info-value">
+              Diploma in Public Administration<br>
+              Degree in Library Management
+            </div>
+          </div>
+        </div>
+
+       
+<h3>Objective</h3>
+<div class="info-box">
+  <p>
+    Bachelor of Information Science (Library Management) student at UiTM 
+    seeking a 6-month internship to gain hands-on experience in library 
+    management, information systems and data handling. Passionate about 
+    promoting information literacy and supporting efficient library services.
+  </p>
+</div>
+
+
+<h3>Hard Skills</h3>
+<div class="info-box">
+  <ul>
+    <li>Cataloging & Classification (DDC)</li>
+    <li>HTML (Basic Web Coding)</li>
+    <li>Power BI & SPSS</li>
+    <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+    <li>Mendeley (Reference Management)</li>
+  </ul>
+</div>
+
+
+<h3>Soft Skills</h3>
+<div class="info-box">
+  <ul>
+    <li>Communication & Teamwork</li>
+    <li>Problem Solving & Critical Thinking</li>
+    <li>Time Management</li>
+    <li>Adaptability & Willingness to Learn</li>
+  </ul>
+</div>
+
+
+<h3>Contact</h3>
+<div class="info-box">
+  <p><strong>Email:</strong> aqilaharif25@gmail.com</p>
+  <p><strong>Phone:</strong> 011-20852623</p>
+  <p><strong>Name:</strong> Nur Aqilah Binti Muhamad Arif</p>
+</div>
+<center><ul><a href="#top">Back to top</a></li></ul></center>
+  </main>
+
+
+  <div id="modal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.6); align-items:center; justify-content:center;">
+    <img id="modalImg" style="max-width:90%; max-height:85%; border-radius:12px;">
+  </div>
+
+  <footer>
+    © 2025 NUR AQILAH BINTI MUHAMAD ARIF. Recommended browsers: Chrome / Firefox / Edge. Recommended resolution: 1280x720 or higher. Last update: 2025-12-09.
+  </footer>
+
+
+</body>
+</html>
+
